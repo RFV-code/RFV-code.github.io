@@ -8,7 +8,7 @@
         
         
 
-	<title>2016/10/01 Time to share - RFVenter</title>
+	<title>Time to share - RFVenter</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
@@ -72,7 +72,7 @@
                     
                         
 <li class="active">
-    <a href="./">2016/10/01 Time to share</a>
+    <a href="./">Time to share</a>
 </li>
 
                     
@@ -124,6 +124,9 @@
         <li class="main "><a href="#git-mass-rename">Git mass rename</a></li>
         
     
+        <li class="main "><a href="#compiler-feature-turnoff">Compiler feature turnoff</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
@@ -140,7 +143,14 @@
 mv hello.html lib
 git add lib/hello.html
 git rm hello.html
-</code></pre></div>
+</code></pre>
+
+<h1 id="compiler-feature-turnoff">Compiler feature turnoff</h1>
+<p><em>2016/10/01</em></p>
+<p>I have often been thinking why programming is so, well, un-intuitive. Why is it so hard? People who know little about programming and new programmers ofter believe that you simply somehow tell the computer what it needs to be doing and it will figure it out by itself. Like </p>
+<p>Programming is the art of using other peoples work. We use processors which have been designed by very cleaver people, mass produced so that we can afford to buy some, by the people who write code and then share it. The reason its so hard it because of the sheer amount of code, data and hence inherent complexity that goes with that. Any additional feature has the potential to add exponential complexity to any domain.</p>
+<p>Anyways, regarding dynamic typing: is there no way to turn this feature of for certain sections of code. Take as an example cython. Cython is code with python syntax (mostly) but compiles to static native c code. Why does the python language in conjunction with the python compiler not just enable all code to turn on/off dynamic typing for certain parts of the abstract syntax tree. In fact why can't we design a language which does the same for all modern programming language features including, garbage collection, exception handling. Why cant you prototype your programs and when your ready selective turn off features while maintaining most of your existing code in a single clean syntax? </p>
+<p>By looking at the python compiler it is clear that something like this would not even be considered as the mantra in that community is to keep the compiler as easy to understand as possible even at the cost of speed. Its so obvious that the compiler sometimes adds dead byte code at the end of functions simply because no-one is bothered to add complexity to the compiler. The objective in python is not speed, and I think that is very sad. I believe that <em>native</em> is and will always be very relevant, and enabling programmer to learn one language which can deal with native as well as features will be extremely helpful.</p></div>
         </div>
 
         <footer class="col-md-12">
