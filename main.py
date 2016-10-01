@@ -6,7 +6,8 @@ from random import choice
 
 class RFVHandler(webapp2.RequestHandler):
 	def get(self):
-		self.response.out.write(template.render('index.html', {}))
+		# self.response.out.write(template.render('index.html', {}))
+		return webapp2.redirect('https://rfventer.github.io/', permanent=True)
 
 class URLShortnerHandler(webapp2.RequestHandler):
 	def get(self, shortner):

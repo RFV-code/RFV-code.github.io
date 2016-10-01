@@ -10,15 +10,15 @@
 		var logos = ['blue', 'red', 'yellow', 'green', 'grey', 'grey_79', 'grey_101'];
 
 		function starter()	{
-			var logo_name = logos[Math.floor(Math.random() * logos.length)];
-			var logo_image = document.getElementById('RFV_logo');
-			logo_image.src = 'images/RFV_' + logo_name + '.png';
-
 			refresh()
 			setInterval(refresh, 11000);
 		}
 
 		function refresh() {
+			var logo_name = logos[Math.floor(Math.random() * logos.length)];
+			var logo_image = document.getElementById('RFV_logo');
+			logo_image.src = 'images/RFV_' + logo_name + '.png';
+
 			var background_name = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 			var body_background = document.getElementById('body_background');
 			body_background.background = 'images/backgrounds/' + background_name;
