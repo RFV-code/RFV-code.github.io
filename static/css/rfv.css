@@ -1,0 +1,299 @@
+html {overflow-y: scroll;}
+
+body
+{
+  /*background-color: black;*/
+  color: rgb(127, 127, 127);
+  height: 100%;
+  background-position: top-left;
+  background-attachment: fixed;
+  alink: #000099;
+  link: #000099;
+  vlink: #990099;
+}
+
+a {
+  font-size: 19px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(227, 227, 227);
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+n
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(181, 181, 181);
+}
+
+n_l
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: white;
+}
+
+n_d
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: black;
+}
+
+n_b
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(37, 37, 255);
+}
+
+n_g
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(0, 255, 0);
+}
+
+n_r
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+n_y
+{ 
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 0);
+}
+
+b
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(181, 181, 181);
+}
+
+b_l
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+b_d
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+b_b
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(37, 37, 255);
+}
+
+b_g
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(0, 255, 0);
+}
+
+b_r
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+b_y
+{ 
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(255, 255, 0);
+}
+
+rn
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(181, 181, 181);
+}
+
+rn_l
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: white;
+}
+
+rn_d
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: black;
+}
+
+rn_b
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(37, 37, 255);
+}
+
+rn_g
+
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(0, 255, 0);
+}
+
+rn_r
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+rn_y
+{ 
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 0);
+}
+
+rb
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(181, 181, 181);
+}
+
+rb_l
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+
+rb_d
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+rb_b
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(37, 37, 255);
+}
+
+rb_g
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(0, 255, 0);
+}
+
+rb_r
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+rb_y
+{ 
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(255, 255, 0);
+}
+
+code
+{ 
+  font-family: monospace;
+}
+
+heading
+{
+  font-size: 31px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h_1
+{
+  font-size: 29px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  widows: 2;
+  orphans: 2;
+}
+
+h_2
+{
+  font-size: 23px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  widows: 2;
+  orphans: 2;
+}
+
+ul 
+{ 
+  list-style-type: square;
+} 
+
+#tableContainer-1 {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+#tableContainer-2 {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+}
