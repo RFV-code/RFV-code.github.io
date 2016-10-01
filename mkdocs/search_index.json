@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/about/", 
+            "text": "About me (again)\n\n\nI'm a person who undestands that not many people actually understand the financial system.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#about-me-again", 
+            "text": "I'm a person who undestands that not many people actually understand the financial system.", 
+            "title": "About me (again)"
+        }, 
+        {
+            "location": "/blog/0161001/", 
+            "text": "Time to share\n\n\n2016/10/01\n\n\nSo as I was doing a Google search today in relation to my programming work. I realized that it's time for a blog site. With so much information in my head as well as opinions about computation, computers, and programming in general, its time that I share that knowledge to others.\n\n\nGit mass rename\n\n\n2016/10/01\n\n\nI was doing some searching today to find out how I can rename files without using the Git utility. The reason was that I was given about 3,000 files which all needed to be mass renamed with. I am using an excellent utility on Windows called \nAdvanced Renamer\n, which allows me to do Regex search and replace on file names.\n\n\nSo the only option would have been to just do the renaming on files in the repo and then just add them again afterwards. So after doing this what I noticed was that the repo folder wasn't actually significantly larger, as these files where large all together.\n\n\nGit stores file information with an object-ID, which is unique for whatever data is in a file. If one moves a file and then adds that file again to be tracked by git (in the new folder) then git will be smart enough to detect that its the same file. However if we do a commit before adding the moved file to be tracked, then git will 1st remove the files old location and then it wont detect the change. So here is how you would do it with the git command line:\n\n\nmkdir lib\nmv hello.html lib\ngit add lib/hello.html\ngit rm hello.html", 
+            "title": "2016/10/01 Time to share"
+        }, 
+        {
+            "location": "/blog/0161001/#time-to-share", 
+            "text": "2016/10/01  So as I was doing a Google search today in relation to my programming work. I realized that it's time for a blog site. With so much information in my head as well as opinions about computation, computers, and programming in general, its time that I share that knowledge to others.", 
+            "title": "Time to share"
+        }, 
+        {
+            "location": "/blog/0161001/#git-mass-rename", 
+            "text": "2016/10/01  I was doing some searching today to find out how I can rename files without using the Git utility. The reason was that I was given about 3,000 files which all needed to be mass renamed with. I am using an excellent utility on Windows called  Advanced Renamer , which allows me to do Regex search and replace on file names.  So the only option would have been to just do the renaming on files in the repo and then just add them again afterwards. So after doing this what I noticed was that the repo folder wasn't actually significantly larger, as these files where large all together.  Git stores file information with an object-ID, which is unique for whatever data is in a file. If one moves a file and then adds that file again to be tracked by git (in the new folder) then git will be smart enough to detect that its the same file. However if we do a commit before adding the moved file to be tracked, then git will 1st remove the files old location and then it wont detect the change. So here is how you would do it with the git command line:  mkdir lib\nmv hello.html lib\ngit add lib/hello.html\ngit rm hello.html", 
+            "title": "Git mass rename"
+        }
+    ]
+}
