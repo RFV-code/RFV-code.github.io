@@ -43,15 +43,37 @@
 
         <div class="container">
             <div class="col-md-3">{% include "toc.html" %}</div>
-            <div class="col-md-9" role="main">{% include "content.html" %}</div>
-        </div>
+            <div class="col-md-9" role="main">
+                {% include "content.html" %}
 
-        <footer class="col-md-12">
-            <hr>
-            {% if copyright %}
-                <center>{{ copyright }}</center>
-            {% endif %}
-        </footer>
+                <footer class="col-md-12">
+                    <hr>
+                    {% if copyright %}
+                        <center>{{ copyright }}</center>
+                    {% endif %}
+                </footer>
+                <div id="disqus_thread"></div>
+                    <script>
+
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+                    /*
+                    var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = '//rfventer.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                </div>
+            </div>
+
 
         <script src="{{ base_url }}/js/jquery-1.10.2.min.js"></script>
         <script src="{{ base_url }}/js/bootstrap-3.0.3.min.js"></script>
@@ -62,27 +84,6 @@
         {%- for path in extra_javascript %}
         <script src="{{ path }}"></script>
         {%- endfor %}
-
-        <div id="disqus_thread"></div>
-        <script>
-
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-        /*
-        var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = '//rfventer.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
