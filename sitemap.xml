@@ -12,7 +12,19 @@
     
         
     <url>
-     <loc>None/blog/0161001/</loc>
+     <loc>None/blog/0161001InternetServiceFragmentation/</loc>
+     <lastmod>2016-10-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/blog/0161001CompilerFeature/</loc>
+     <lastmod>2016-10-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/blog/0161001GitMassRename/</loc>
      <lastmod>2016-10-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
