@@ -8,7 +8,7 @@
         
         
 
-	<title>Compiler Features - RFVenter</title>
+	<title>Abstraction, the Anti-Pattern of Computation - RFVenter</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
@@ -72,8 +72,8 @@
                     <ul class="dropdown-menu">
                     
                         
-<li >
-    <a href="../0161008AbstactionAntiPattern/">Abstraction, the Anti-Pattern of Computation</a>
+<li class="active">
+    <a href="./">Abstraction, the Anti-Pattern of Computation</a>
 </li>
 
                     
@@ -84,8 +84,8 @@
 
                     
                         
-<li class="active">
-    <a href="./">Compiler Features</a>
+<li >
+    <a href="../0161001CompilerFeature/">Compiler Features</a>
 </li>
 
                     
@@ -115,12 +115,12 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="next" href="../0161001InternetServiceFragmentation/">
+                    <a rel="next" href="../../about/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../0161001GitMassRename/">
+                    <a rel="prev" href="../0161001InternetServiceFragmentation/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -143,7 +143,7 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#compiler-feature-turnoff">Compiler feature turnoff</a></li>
+        <li class="main active"><a href="#abstraction-the-anti-pattern-of-computation">Abstraction, the Anti-Pattern of Computation</a></li>
 
     
     </ul>
@@ -151,12 +151,27 @@
             <div class="col-md-9" role="main">
                 
 
-<h1 id="compiler-feature-turnoff">Compiler feature turnoff</h1>
-<p><em>2016/10/01</em></p>
-<p>I have often been thinking why programming is so, well, un-intuitive. Why is it so hard? People who know little about programming and new programmers ofter believe that you simply somehow tell the computer what it needs to be doing and it will figure it out by itself. Like </p>
-<p>Programming is the art of using other peoples work. We use processors which have been designed by very cleaver people, mass produced so that we can afford to buy some, by the people who write code and then share it. The reason its so hard it because of the sheer amount of code, data and hence inherent complexity that goes with that. Any additional feature has the potential to add exponential complexity to any domain.</p>
-<p>Anyways, regarding dynamic typing: is there no way to turn this feature of for certain sections of code. Take as an example cython. Cython is code with python syntax (mostly) but compiles to static native c code. Why does the python language in conjunction with the python compiler not just enable all code to turn on/off dynamic typing for certain parts of the abstract syntax tree. In fact why can't we design a language which does the same for all modern programming language features including, garbage collection, exception handling. Why cant you prototype your programs and when your ready selective turn off features while maintaining most of your existing code in a single clean syntax? </p>
-<p>By looking at the python compiler it is clear that something like this would not even be considered as the mantra in that community is to keep the compiler as easy to understand as possible even at the cost of speed. Its so obvious that the compiler sometimes adds dead byte code at the end of functions simply because no-one is bothered to add complexity to the compiler. The objective in python is not speed, and I think that is very sad. I believe that <em>native</em> is and will always be very relevant, and enabling programmer to learn one language which can deal with native as well as features will be extremely helpful.</p>
+<h1 id="abstraction-the-anti-pattern-of-computation">Abstraction, the Anti-Pattern of Computation</h1>
+<p>Today, after much thought again, I realized that abstraction is in fact the <em>anti-pattern of computation</em>. In computer programming there are tones of ideas, frameworks, platforms, APIs, languages, tools, methodologies, etc, etc and yet at the very heart of it all lies computation and more specifically the computer. A computer is a <strong>real</strong> engineered physical machine that performs exactly as it was designed to do, so surely the field of computer engineering should be more, well, structured and organized?</p>
+<p>The issue lies with abstraction. Abstraction is a good tool, but if you don't understand how to use that tool then you won't know what your tool is doing and what your actually busy with. The more abstract you become the less you think about whats actually happening.</p>
+<p>Abstraction should only be used when you know how that abstraction relates the world without that abstraction, in other words you need to know what yous abstraction is doing.</p>
+<p>Computation in itself is something which is very much a <strong>real</strong> thing as it always requires a <strong>real machine</strong> and a program runs in <strong>real <em>time</em></strong>..</p>
+<p>Abstraction is like a great magic trick. If one wishes to fully engage or understand the trick, one needs to know how it is performed, and if you don't really want to spoil the <em>magic</em>, then at the very least: you have to remember that it's just a magic trick.
+It's <em>not</em> <strong>real</strong>.</p>
+<p>Real world targets, deadlines, and then neutrally people who have flaws, egos, tastes, etc, etc is the <strong>real</strong> reason that the world of software is in the state that it is today. Although I'm not expecting it to happen, I do think that future generations will benefit if everyone takes a little bit of time to find out what everyone else is busy d. But since the world of software development is not driven by making things work better (better under the hood, and more efficient), just as the rest of the world is not driven by making things more efficient and more sustainable (engineering, energy, logistics), but by many factors such as profits, politics, etc. Just so the world of software development will linger on in a state of mess. The thing is though, that software in itself (not the running of software, but the data representation of software) is such a pure and concrete thing, that I believe it time for Universities to really take a pause and re-evaluate what we are busy with. CPU's are not simply going to keep getting better.</p>
+<p>The common denominator of the computer of today (PC, Server, Mobile, Raspberry Pi) is the Von Neumann Architecture which in turn uses the concept of the Turing machine.</p>
+<h2 id="the-current-world-of-program-abstractions">The current world of program abstractions.</h2>
+<p>To understand your abstractions (in the imperative programming world) you need to understand the evolution of software engineering abstraction, and in parallel the evolution of programming languages in order of:</p>
+<ol>
+<li>Turing Machine (3 basic statements: conditional statement [if-then], jump [move execution to another position], change [do a combinatory logic execution])</li>
+<li>Variables and data structures (such as int, string, or any block of sequential data)</li>
+<li>The procedure (which requires a stack)</li>
+<li>Removal of the Goto statement (since procedures can structure code into blocks of tree structures) *LANGUAGE FEATURE REDUCING COMPUTATION ABILITY - no longer Turing complete</li>
+<li>Run-time: dynamic memory management and allocation, pointers (run time allocated memory address)</li>
+<li>Objects: grouping procedures and variables together and enabling easy dynamic allocation of new such objects. Procedures have limited access to its own variables and are called methods. *LANGUAGE FEATURE REDUCING COMPUTATION ABILITY (syntactic sugar: makes life easy for doing common things, when used)</li>
+<li>Exceptions, Garbage Collection, Dynamic Typing, Run-time compilation, etc, etc *LANGUAGE FEATURE REDUCING COMPUTATION ABILITY (syntactic sugar: makes life easy for doing common things, when used) These  are all good default features for a language to have but since they are not optional (not extensions, but replacements), and mandatory they actually reduce the overall possible computation possible.</li>
+</ol>
+<p>I believe that we are capable of much more amazing computational application then we even realize. The software world seems to move in this monolithic way where we tend to crate thing that we already know, leading to the same old same old. I am not an expert in any language, and that doesn't matter for me to be able to write this article. Perhaps it is because I am not an expert and tied down to any specific way of thinking that I am able to state here, what I think many programmer already intuitively know by themselves.</p>
 
                 <footer class="col-md-12">
                     <hr>
