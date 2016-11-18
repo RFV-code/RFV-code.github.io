@@ -12,6 +12,14 @@ body
   vlink: #990099;
 }
 
+@font-face {
+    font-family: 'blocksblocks';
+    src: url('blocks-webfont.woff2') format('woff2'),
+         url('blocks-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 a {
   font-size: 19px;
   font-family: sans-serif;
@@ -264,9 +272,8 @@ heading
 
 h_1
 {
-  font-size: 29px;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-size: 79px;
+  font-family: 'blocksblocks';
   color: white;
   widows: 2;
   orphans: 2;
@@ -274,10 +281,9 @@ h_1
 
 h_2
 {
-  font-size: 23px;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-size: 29px;
+  color: rgb(191, 191, 191);
+  font-family: 'blocksblocks';
   widows: 2;
   orphans: 2;
 }
