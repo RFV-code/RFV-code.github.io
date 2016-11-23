@@ -21,7 +21,7 @@ body
 }
 
 a {
-  font-size: 19px;
+  font-size: 17px;
   font-family: sans-serif;
   text-decoration: none;
   color: rgb(227, 227, 227);
@@ -72,7 +72,7 @@ n_b
 { 
   font-size: 19px;
   font-family: sans-serif;
-  color: rgb(37, 37, 255);
+  color: rgb(79, 79, 255);
 }
 
 n_g
@@ -125,7 +125,7 @@ b_b
   font-size: 19px;
   font-weight: bold;
   font-family: sans-serif;
-  color: rgb(37, 37, 255);
+  color: rgb(79, 79, 255);
 }
 
 b_g
@@ -154,57 +154,57 @@ b_y
 
 rn
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: rgb(181, 181, 181);
 }
 
 rn_l
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: white;
 }
 
 rn_d
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: black;
 }
 
 rn_b
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
-  color: rgb(37, 37, 255);
+  color: rgb(79, 79, 255);
 }
 
 rn_g
 
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: rgb(0, 255, 0);
 }
 
 rn_r
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: rgb(255, 0, 0);
 }
 
 rn_y
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-family: sans-serif;
   color: rgb(255, 255, 0);
 }
 
 rb
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: rgb(181, 181, 181);
@@ -212,7 +212,7 @@ rb
 
 rb_l
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: white;
@@ -220,7 +220,7 @@ rb_l
 
 rb_d
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: black;
@@ -228,15 +228,15 @@ rb_d
 
 rb_b
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
-  color: rgb(37, 37, 255);
+  color: rgb(79, 79, 255);
 }
 
 rb_g
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: rgb(0, 255, 0);
@@ -244,7 +244,7 @@ rb_g
 
 rb_r
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: rgb(255, 0, 0);
@@ -252,7 +252,7 @@ rb_r
 
 rb_y
 { 
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   font-family: sans-serif;
   color: rgb(255, 255, 0);
@@ -274,15 +274,15 @@ h_1
 {
   font-size: 79px;
   font-family: 'blocksblocks';
-  color: white;
+  color: rgb(101, 101, 101);
   widows: 2;
   orphans: 2;
 }
 
 h_2
 {
-  font-size: 29px;
-  color: rgb(211, 211, 211);
+  font-size: 37px;
+  color: rgb(127, 127, 127);
   font-family: 'blocksblocks';
   widows: 2;
   orphans: 2;
