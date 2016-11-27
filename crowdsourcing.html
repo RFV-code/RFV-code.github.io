@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html style="height: 100%;">
+<head>
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+	<title>About me</title>
+	<link href="css/rfv.css" rel="stylesheet" type="text/css">
+	<script type="text/JavaScript">
+		var backgrounds = ["b3e840bcd93913dcb64864b3b901ee8a.jpg", "back2.png", "Background2.jpg", "background-image-checkers-chequered-checkered-squares-seamless-tileable-ship-grey-bokara-grey-2364aq.png", "back_main.jpg", "BGAlien.jpg", "BGDark.jpg", "BGLiquidMetal.jpg", "blackopal.gif", "britswrgold.jpg", "hex_grid_wallpaper_01__no_mask_by_adoomer-d3qx0iv.png", "p16of4lqkpovl1o2l1ecbbh814s9-details.jpg", "pattern06.png", "Red Background.png", "txwld004.jpg", "txwld008.jpg", "txwld034.jpg", "txwld045.jpg", "txwld061.jpg", "txwld064.jpg", "txwld100.jpg", "txwld101.jpg", "txwld102.jpg", "txwld116.jpg", "txwld117.jpg", "txwld122.jpg", "txwld125.jpg", "WaterColor.jpg"];
+		var logos = ['blue', 'red', 'yellow', 'green', 'grey', 'grey_79', 'grey_101'];
+
+		function starter()	{
+			var logo_name = logos[Math.floor(Math.random() * logos.length)];
+			var logo_image = document.getElementById('RFV_logo');
+			logo_image.src = 'images/RFV_' + logo_name + '.png';
+			var background_name = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+			var body_background = document.getElementById('body_background');
+			body_background.background = 'images/backgrounds/' + background_name;		
+		}
+
+	</script>
+</head>
+<body id="body_background" onload="starter();">
+	<div id="tableContainer-1">
+		<div id="tableContainer-2">
+			<table style="
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 13px;
+			background: white;
+			cellspacing="0"
+			width="70%">
+				<tr valign="top">
+					<td align="left">
+						<a href="http://www.rfv.io"><img id="RFV_logo" src="" style="border: none;" /></a><br>
+						<h_1>FINTECH CROWDSOURCING</h_1>
+						<rn_d>
+							<p>
+							I have recently been intimately involved with the fund-raising initiatives of <a href="https://www.augur.net"><img src="images/logos/augur.png" style="border: none;" width="100" /></a> as well as <a href="https://golem.network"><img src="images/logos/golem.png" style="border: none;" width="100"/></a></p>
+							<p>
+							These two organizations have reached substantial investments, which will enable them to achieve their objectives and to become good investments for their respective investors. Augur raised over $5.2 million and Golem raised over $8 million.</p>
+							<p>
+							Because I am an active blogger in this space I have been able to provide a very valuable service for these organizations. I was active in promoting the sale of tokens and dealing with any objections and doubters. As a Financial Advisor for the past 9 years I fully understand the landscape of these ventures. I also learned a lot from their founders and have build valuable connection in the process.</p>
+							<p>I don't want to say any more and expose my secret sauce, but I am currently looking forward to the next ICO.</p>
+							<p>As mentioned before I am also an actively paid blogger in the blockchain tech space. I have helped contribute to several books (authors using my content for their publications).
+						</rn_d>
+						
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
