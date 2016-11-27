@@ -318,5 +318,7 @@ ul
   border-top-style: solid;
   border-top-width: 2px;
   padding: 11px;
-  display:inline-block
+  margin: 5px 5px 5px 0px;
+  display: inline-block;
+
 }
