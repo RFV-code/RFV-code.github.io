@@ -275,14 +275,16 @@ h_1
   font-size: 59px;
   font-family: 'blocksblocks';
   color: rgb(101, 101, 101);
-  widows: 2;
-  orphans: 2;
+  widows: 3;
+  orphans: 3;
+  text-shadow: 2px 0px 2px rgba(101,101,101,0.7);
 }
 
 h_2
 {
   font-size: 37px;
   color: rgb(127, 127, 127);
+  text-shadow: 2px 0px 2px rgba(127,127,127,0.7);
   font-family: 'blocksblocks';
   widows: 2;
   orphans: 2;
