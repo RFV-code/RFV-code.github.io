@@ -48,13 +48,13 @@
 						<h_1>PROGRAMMING</h_1>
 						<rn_d>
 						<p>
-						Every project that I work on, every challenge that I face, I overcome. I am able to learn whatever technology stack is required to fix problems, and I am looking forward to learning even more.</p>
+						Every project that I have worked on, every challenge that I have faced, I overcame. I am able to learn whatever technology stack is required to fix problems, and I am looking forward to learning even more.</p>
 						<p>
-						I have been constantly employed for over 13 years in financial and information technology.</p>
+						I have been constantly employed for over 13 years in the financial and information technology sectors.</p>
+						<p> 
+						I have enough practical (technical) and theorical (insight) to enable me to do whatever is necessary for a project to succeed, and this is why clients love me. I have a substantial knowledge of computation theory, computation complexity and the history and evolution of computers as we know it, and where the computing industry is heading into the future.</p>
 						<p>
-						I enjoy working on projects with a team that cares about creating quality, maintainable code. But, if a team is not as good as they should be, I do the brave thing and make practical recommendations. That's why clients love me, because I do whatever is necessary for a project to succeed.</p>
-						<p>
-						I have both practical (technical) and theory (insight). I have a substantial knowledge of computation theory, computation complexity and the history and evolution of computers as we know it, and where the computing industry is heading into the future.</p></rn_d>
+						I enjoy working on projects with a team that cares about creating quality, maintainable code.</p></rn_d>
 						<p>
 						<a class="button button-black" href="https://drive.google.com/open?id=0BzkLEtCwUeaASElXNE5fXzFUZDA">Resume</a></p>
 						<h_2>KEY TECHNOLOGIES</h_2>
@@ -119,65 +119,6 @@
 							<li>Principle of least astonishment.</li>
 							<li>Clean Code: A Handbook of Agile Software Craftsmanship.</li>
 						</ul></rn_d>
-						<h_2>PYTHON</h_2>
-						<rn_d><ul>
-						    <li>Python code maximum line length is 100 characters.</li>
-						    <li>Preferred order of attributes inside a class: NAMED_CONSTANTS, class data attributes, __init__() if present, __magic_methods__(), @properties, @staticmethods, @classmethods, _private methods, public methods. Related private and public methods should be placed together for better readability.</li>
-						    <li>When overriding a method always call an overridden parent class method (with super) and return its result (if you are not altering it) even if the overridden method is not supposed to return anything then None at the moment (it is a forward compatibility measure).</li>
-						    <li>Usage of introspection (e.g. getattr(), hasattr()) and __magic_methods__ override should be well-considered. If a feature can be implemented without introspection or explicit __magic_methods__ it should implemented with out them for very rare exceptions. Usage of introspection or explicit __magic_methods__ usually is a sign of bad code design or "reinvention of the wheel".</li>
-						    <li>Use strict version dependencies to prevent unexpected upgrades. Apply the same rule to the dependencies of your dependencies recursively. Example: dependency-package-name==x.y.z (explanation).</li>
-						    <li>Use Python packaging instead of requirements.txt and git-based deploys.</li>
-						</ul></rn_d>
-						<h_2>PROCESS</h_2>
-						<rn_d><ul>
-							<li>Collective code ownership.</li>
-							<li>Code review is a good investment of time.</li>
-							<li>Favor code development performance against code run time performance (with a reasonable trade-off).</li>
-							<li>Favor good enough code and code development performance against perfect code when you have tight deadlines. You can always improve later..</li>
-							<li>It is fine to write an optimal code in the first place (in terms of size, performance or resource usage) if it comes at zero or near zero cost.</li>
-							<li>Dedicate time on code run time performance optimization only if it is really needed. Premature optimization may result in waste of time.</li>
-							<li>Every time you put a dirty hack or just something that can be done better into your code put a TODO near it with an explanation and/or description of actions for improvement. It will help to track technical debt and help other developers during refactoring or regular development to understand if they are right to judge this code as strange and to be improved.</li>
-							<li>If it is hard to choose between alternative technical solutions, then choose any of them instead of wasting time. Later when you have more information or circumstances change you can refactor if the original choice was wrong.</li>
-							<li>Using a language feature just to show others that you know it is unprofessional.</li>
-							<li>Manage to see more lines at the screen at the same time for lesser defect count (vertical display orientation and meaningless lines elimination may help).</li>
-							<li>Keep development environment as close as possible to production.</li>
-							<li>Keep testing environment identical to production enviroment (including the deployment procedure).</li>
-							<li>Never submit changes that are known to break something that already works.</li>
-						</ul></rn_d>
-						<h_2>CODE DESIGN</h_2>
-						<rn_d><ul>
-							<li>Write code to be read by humans.</li>
-							<li>Favor code readability against code run time performance (with a reasonable trade-off).</li>
-							<li>Maintain code reuse of your code and use publicly available libaries. Reinventing a wheel is a waste of time.</li>
-							<li>Avoid code copy and paste or have very strong reasons for it.</li>
-							<li>Know the difference between agile and universal: instead of writing a code for all imaginary future use cases write the code that can be easily adapted to many of the future use cases.</li>
-							<li>Maintain the least possible cyclomatic complexity of the code for better readability and lesser defect count.</li>
-							<li>Favor a readable code against a well commented code. A necessity for comment is good sign for a poorly written code.</li>
-							<li>Code run time performance optimization should start from identified bottlenecks instead of something that is easy to tune.</li>
-							<li>If a literal used twice in the code put it to a named constant. Even literals that occur only once deserve to be put in a named constant, because named constant will describe the nature of the constant.</li>
-							<li>Do not put .gitignore into git repository. Every developer should be free to ignore whatever extra file he/she has locally (.gitignore should not aggregate every developer's local "mess").</li>
-						</ul></rn_d>
-
-						<h_2>CODE STYLE</h_2>
-						<rn_d><ul>
-							<li>Maintain a shorter code size in lines and characters for better readability and lesser defect count if does not impact performance or readability.</li>
-							<li>TODO format: TODO(author) LOW|MEDIUM|HIGH|CRITICAL: textual description of todo..</li>
-							<li>A longer variable, function, class or method name is better than an unclear name.</li>
-							<li>Code style should be consistent across the entire code base.</li>
-							<li>Code base should not contain commented out source code. Although it may be a part of a comment or a TODO.</li>
-							<li>Non-ASCII charcters should not be a part of the source code. Presence of such characters is a sign of poor localization, internationalization or parametrization of the code.</li>
-						</ul></rn_d>
-
-						<h_2>ORGANIZATION</h_2>
-						<rn_d><ul>
-							<li>Every decision should be reasonable (based on reasons).</li>
-							<li>Actual responsibility for a decision always lays on a person(s) made the decision despite how it looks or formalized.</li>
-							<li>Every decision should be considered in every longevity term (short, medium and long).</li>
-							<li>Every technical decision should be made considering its effect on business as the most important criteria.</li>
-							<li>Technical solutions of a highest efficiency (= effect / expenses) should chosen during decision making process.</li>
-							<li>Honor established processes, rules, methodologies and patterns, but do not hesitate to step out if it leads to more profit than loss.</li>
-						</ul></rn_d>
-
 					</td>
 				</tr>
 			</table>
