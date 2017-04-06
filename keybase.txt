@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rfventer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.rfv.io
+  * I am rfventer (https://keybase.io/rfventer) on keybase.
+  * I have a public key ASDR2_UY_sgw_8ekmrNPi_yGxDHoZhALroDuVhTNcEevawo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101389661c9a240dc8ff04a5525819b4e0bd206acac9cc52ac20d543f31c118acbc0a",
+            "host": "keybase.io",
+            "kid": "0120d1dbf518fec830ffc7a49ab34f8bfc86c431e866100bae80ee5614cd7047af6b0a",
+            "uid": "000c5eb315fadb960c4f76db14f0ac19",
+            "username": "rfventer"
+        },
+        "service": {
+            "hostname": "www.rfv.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491492265,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491492201,
+        "hash": "5ec9cfcb30db76f227c5cfe42dcedb22e695aa27691fb75e15325e0271f20defee53489e4362face98c8042bef4bfb992058e2f377ef7a4c078d457ec3fad55f",
+        "seqno": 1003039
+    },
+    "prev": "06612310c189a6e9ce45e4748ea884c24d073ca75c2fdb90c3a5360b638865c7",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0dv1GP7IMP/HpJqzT4v8hsQx6GYQC66A7lYUzXBHr2sKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzg5NjYxYzlhMjQwZGM4ZmYwNGE1NTI1ODE5YjRlMGJkMjA2YWNhYzljYzUyYWMyMGQ1NDNmMzFjMTE4YWNiYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDFkYmY1MThmZWM4MzBmZmM3YTQ5YWIzNGY4YmZjODZjNDMxZTg2NjEwMGJhZTgwZWU1NjE0Y2Q3MDQ3YWY2YjBhIiwidWlkIjoiMDAwYzVlYjMxNWZhZGI5NjBjNGY3NmRiMTRmMGFjMTkiLCJ1c2VybmFtZSI6InJmdmVudGVyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cucmZ2LmlvIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMCJ9LCJjdGltZSI6MTQ5MTQ5MjI2NSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkxNDkyMjAxLCJoYXNoIjoiNWVjOWNmY2IzMGRiNzZmMjI3YzVjZmU0MmRjZWRiMjJlNjk1YWEyNzY5MWZiNzVlMTUzMjVlMDI3MWYyMGRlZmVlNTM0ODllNDM2MmZhY2U5OGM4MDQyYmVmNGJmYjk5MjA1OGUyZjM3N2VmN2E0YzA3OGQ0NTdlYzNmYWQ1NWYiLCJzZXFubyI6MTAwMzAzOX0sInByZXYiOiIwNjYxMjMxMGMxODlhNmU5Y2U0NWU0NzQ4ZWE4ODRjMjRkMDczY2E3NWMyZmRiOTBjM2E1MzYwYjYzODg2NWM3Iiwic2Vxbm8iOjEyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAPxtSate9cjK01+JyjrtZgRcnNSHO3uAtrj+141aWmvm7XmM8qEnivKkqF0O7QENgzKsTyAfpr0YNLQMKpWdQqoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCt7iG1y/3+GXdtyYz7vzcfEmIiYJhlgJXe/uIB+1T7u6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rfventer
+
+==================================================================
