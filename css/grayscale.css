@@ -46,22 +46,8 @@ a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
-.ico {
-  font-weight: 900;
-  color: rgb(2, 251, 2);
-}
-.f {
-  font-weight: 900;
-}
-.und {
-  font-weight: 200;
-}
-.green {
-  color: rgb(2, 251, 2);
-}
 .taddress {
   color: rgb(2, 251, 2);
-  background-color: rgba(0, 0, 0, .8);
   font-weight: bold;
 }
 
@@ -134,9 +120,9 @@ a:focus {
   width: 100%;
   height: auto;
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
   color: white;
-  background: url(../img/backgrounds/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/backgrounds/1a.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -153,7 +139,7 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 29px;
-  color: yellow;
+  color: white;
 }
 @media (min-width: 768px) {
   .intro {
