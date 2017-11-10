@@ -5,20 +5,23 @@ body {
   color: white;
   background-color: black;
 }
+@font-face {
+    font-family: 'blocksblocks';
+    src: url('blocks-webfont.woff2') format('woff2'),
+         url('blocks-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html {
   width: 100%;
   height: 100%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 35px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  color: rgb(181, 181, 181);
+
+h1
+{
+  font-size: 47px;
+  font-family: 'blocksblocks';
+  color: rgb(199, 199, 199);
 }
 p {
   margin: 0 0 25px;
@@ -61,11 +64,7 @@ a:focus {
   background-color: rgba(0, 0, 0, .8);
   font-weight: bold;
 }
-.tvalues {
-  color: rgb(251, 2, 2);
-  background-color: rgba(0, 0, 0, .8);
-  font-weight: bold;
-}
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -137,7 +136,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/backgrounds/intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -171,22 +170,22 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.principles-section {
+.education-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/principles-bg.jpg) no-repeat center center scroll;
+  background: url(../img/backgrounds/education-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.trade-section {
+.programming-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/trade-bg.jpg) no-repeat center center scroll;
+  background: url(../img/backgrounds/trade-bg.jpg) no-repeat center center scroll;
   background-color: rgb(37, 37, 37);;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -207,10 +206,10 @@ a:focus {
   .content-section {
     padding-top: 150px;
   }
-  .principles-section {
+  .education-section {
     padding: 50px 0;
   }
-  .trade-section {
+  .programming-section {
     padding: 50px 0;
   }
   .details-section {
