@@ -122,8 +122,8 @@ a:focus {
   padding: 100px 0;
   text-align: left;
   color: white;
-  background: url(../img/backgrounds/1a.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background: no-repeat bottom center scroll;
+  background-color: rgb(37, 37, 37);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

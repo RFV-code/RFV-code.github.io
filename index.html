@@ -25,13 +25,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/JavaScript">
-        var logos = ['blue', 'red', 'yellow', 'green', 'grey'];
-    	var backgrounds = ['2a', '2b', '2c', '2d', '2e', '2f', '2g', '2h', '2i', '1a', '1b'];
+        var logos = ['RFV_blue.png', 'RFV_red.png', 'RFV_yellow.png', 'RFV_green.png', 'RFV_grey.png'];
+    	var backgrounds = ["1a.jpg", "1b.jpg", "1c.jpg", "1d.jpg"];
 
     	function starter()	{
     		var logo_name = logos[Math.floor(Math.random() * logos.length)];
     		var logo_image = document.getElementById('RFV_logo');
-    		logo_image.src = 'img/RFV_' + logo_name + '.png';
+    		logo_image.src = 'img/' + logo_name;
+
+            var background_name = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            var intro_section = document.querySelector(".intro");
+            intro_section.style.backgroundImage = "url('img/backgrounds/" + background_name + "')";
     	}
     </script>
 
@@ -79,10 +83,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <img src="img/RFV_grey_line.png" width="512px"><br><br>
                         <p class="intro-text" style="text-shadow: 2px 2px #666666;">
                             <b>Riaan Francois Venter<br>Professional FinTech Advisor</b><br><br>
-                            &#9632; 8 years of offshore Wealth Management experience<br>
+                            &#9632; 8 years of offshore wealth management experience<br>
                             &#9632; 8 years of programming experience<br>
                             &#9632; Completed 5 large ICOs raising over 48M USD<br><br>
                             <span class="taddress">
@@ -128,6 +131,7 @@
                     </li>
                 </ul>
                 </p>
+                <img src="img/RFV_grey_line.png" width="256px">
     		</div>
     	</div>
     </section>
