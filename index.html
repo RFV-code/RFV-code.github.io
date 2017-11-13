@@ -26,16 +26,21 @@
     <![endif]-->
     <script type="text/JavaScript">
         var logos = ['RFV_blue.png', 'RFV_red.png', 'RFV_yellow.png', 'RFV_green.png', 'RFV_grey.png'];
-    	var backgrounds = ["1a.jpg", "1b.jpg", "1c.jpg", "1d.jpg"];
+        var intro_backgrounds = ["1a.jpg", "1b.jpg", "1c.jpg", "1d.jpg", "1e.jpg"];
+        var programming_backgrounds = ["2a.jpg", "2b.jpg", "2c.jpg"];
 
     	function starter()	{
     		var logo_name = logos[Math.floor(Math.random() * logos.length)];
     		var logo_image = document.getElementById('RFV_logo');
     		logo_image.src = 'img/' + logo_name;
 
-            var background_name = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            var intro_name = intro_backgrounds[Math.floor(Math.random() * intro_backgrounds.length)];
             var intro_section = document.querySelector(".intro");
-            intro_section.style.backgroundImage = "url('img/backgrounds/" + background_name + "')";
+            intro_section.style.backgroundImage = "url('img/backgrounds/" + intro_name + "')";
+
+            var programming_name = programming_backgrounds[Math.floor(Math.random() * programming_backgrounds.length)];
+            var programming_section = document.querySelector(".programming-section");
+            programming_section.style.backgroundImage = "url('img/backgrounds/" + programming_name + "')";
     	}
     </script>
 
