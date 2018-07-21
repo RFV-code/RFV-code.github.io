@@ -122,8 +122,7 @@ a:focus {
   padding: 100px 0;
   text-align: left;
   color: white;
-  background: no-repeat bottom center scroll;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(0, 0, 0);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -160,8 +159,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/backgrounds/education-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -171,8 +169,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: no-repeat center center scroll;
-  background-color: rgb(37, 37, 37);;
+  background-color: rgb(0, 0, 0);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
