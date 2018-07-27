@@ -73,7 +73,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: rgb(127, 127, 127);
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -81,7 +81,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(127, 127, 127);
   outline: none;
   background-color: transparent;
 }
@@ -94,10 +94,10 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(127, 127, 127, 0.5);
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: rgb(127, 127, 127);
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -159,7 +159,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(37, 37, 37);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -169,7 +169,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(79, 79, 79);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -178,8 +178,8 @@ a:focus {
 .details-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
-  background-color: rgb(37, 37, 37);;
+  color: black;
+  background-color: rgb(255, 255, 255);;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
