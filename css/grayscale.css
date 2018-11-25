@@ -104,10 +104,11 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    background: #7d7e7d;
+    background: -moz-linear-gradient(-45deg, #7d7e7d 0%, #0e0e0e 20%, #0e0e0e 20%, #0e0e0e 25%, #0e0e0e 54%, #0e0e0e 64%);
+    background: -webkit-linear-gradient(-45deg, #7d7e7d 0%,#0e0e0e 20%,#0e0e0e 20%,#0e0e0e 25%,#0e0e0e 54%,#0e0e0e 64%);
+    background: linear-gradient(135deg, #7d7e7d 0%,#0e0e0e 20%,#0e0e0e 20%,#0e0e0e 25%,#0e0e0e 54%,#0e0e0e 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 );
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
