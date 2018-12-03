@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg126"
+   version="1.1"
+   width="800"
+   height="800"
+   style="background:black">
+ <metadata
+   id="metadata130">
+  <rdf:RDF>
+    <cc:Work
+       rdf:about="">
+      <dc:format>image/svg+xml</dc:format>
+      <dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      <dc:title></dc:title>
+    </cc:Work>
+  </rdf:RDF>
+</metadata>
+<!-- R -->
+<defs
+   id="defs16">
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="blue">
+    <stop
+       id="stop2"
+       style="stop-color:rgb(76, 76, 255);stop-opacity:1"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="blue_bottom">
+    <stop
+       id="stop5"
+       style="stop-color:rgb(76, 76, 255);stop-opacity:0.8"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="blue_right">
+    <stop
+       id="stop8"
+       style="stop-color:rgb(76, 76, 255);stop-opacity:0.4"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="blue_grad">
+    <stop
+       id="stop11"
+       style="stop-color:rgb(76, 76, 255);stop-opacity:0.8"
+       offset="25%" />
+    <stop
+       id="stop13"
+       style="stop-color:rgb(76, 76, 255);stop-opacity:0.4"
+       offset="75%" />
+  </linearGradient>
+</defs>
+<path
+   id="path18"
+   fill="url(#blue_bottom)"
+   d="M 20 170 l 30 10 l 10 10 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path20"
+   fill="url(#blue_grad)"
+   d="M 50 180 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path22"
+   fill="url(#blue_right)"
+   d="M 60 100 l 10 10 l 0 70 l -10 -10 z" />
+<path
+   id="path24"
+   fill="url(#blue_bottom)"
+   d="M 60 100 h 30 l 10 10 h -30 z" />
+<path
+   id="path26"
+   fill="url(#blue_grad)"
+   d="M 90 100 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path28"
+   fill="url(#blue_right)"
+   d="M 100 60 l 10 10 v 30 l -10 -10 z" />
+<path
+   id="path30"
+   fill="url(#blue_bottom)"
+   d="M 100 60 h 70 l 10 10 h -70 z" />
+<path
+   id="path32"
+   fill="url(#blue_grad)"
+   d="M 170 60 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path34"
+   fill="url(#blue_right)"
+   d="M 190 30 v 30 l -10 -10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path36"
+   fill="url(#blue_right)"
+   d="M 70 30 v 30 h -10 v-10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path38"
+   fill="url(#blue)"
+   d="M 20 30 q 0 -10 10 -10 h 20 q 10 0 10 10 v 30 h 40 v -30 q 0 -10 10 -10 h 60 q 10 0 10 10 v 20 q 0 10 -10 10 h -70 v 30 q 0 10 -10 10 h -30 v 70 q 0 10 -10 10 h -20 q -10 0 -10 -10 z" />
+<!-- F -->
+<defs
+   id="defs54">
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="green">
+    <stop
+       id="stop40"
+       style="stop-color:rgb(0, 164, 0);stop-opacity:1"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="green_bottom">
+    <stop
+       id="stop43"
+       style="stop-color:rgb(0, 164, 0);stop-opacity:0.8"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="green_right">
+    <stop
+       id="stop46"
+       style="stop-color:rgb(0, 164, 0);stop-opacity:0.4"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="green_grad">
+    <stop
+       id="stop49"
+       style="stop-color:rgb(0, 164, 0);stop-opacity:0.8"
+       offset="25%" />
+    <stop
+       id="stop51"
+       style="stop-color:rgb(0, 164, 0);stop-opacity:0.4"
+       offset="75%" />
+  </linearGradient>
+</defs>
+<path
+   id="path56"
+   fill="url(#green_bottom)"
+   d="M 220 130 h 40 v 20 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path58"
+   fill="url(#green_bottom)"
+   d="M 260 170 l 30 10 l 10 10 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path60"
+   fill="url(#green_grad)"
+   d="M 290 180 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path62"
+   fill="url(#green_right)"
+   d="M 310 180 v -30 l -10 -10 v 30 z" />
+<path
+   id="path64"
+   fill="url(#green_bottom)"
+   d="M 300 140 h 30 l 10 10 h -30 z" />
+<path
+   id="path66"
+   fill="url(#green_grad)"
+   d="M 330 140 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path68"
+   fill="url(#green_right)"
+   d="M 350 110 v 30 l -10 -10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path70"
+   fill="url(#green_right)"
+   d="M 300 60 l 10 10  v 30 h -10 z" />
+<path
+   id="path72"
+   fill="url(#green_bottom)"
+   d="M 300 60 h 70 l 10 10 h -70 z" />
+<path
+   id="path74"
+   fill="url(#green_grad)"
+   d="M 370 60 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path76"
+   fill="url(#green_right)"
+   d="M 390 30 v 30 l -10 -10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path78"
+   fill="url(#green)"
+   d="M 370 20 q 10 0 10 10 v 20 q 0 10 -10 10 h -70 v 40 h 30 q 10 0 10 10 v 20 q 0 10 -10 10 h -30 v 30 q 0 10 -10 10 h -20 q -10 0 -10 -10 v -30 h -30 q -10 0 -10 -10 v -20 q 0 -10 10 -10 h 30 v -30 q 0 -10 10 -10 h 30 v -30 q 0 -10 10 -10 z" />
+<!-- V -->
+<defs
+   id="defs94">
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="red">
+    <stop
+       id="stop80"
+       style="stop-color:rgb(255, 28, 28);stop-opacity:1"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="red_bottom">
+    <stop
+       id="stop83"
+       style="stop-color:rgb(255, 28, 28);stop-opacity:0.8"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="red_right">
+    <stop
+       id="stop86"
+       style="stop-color:rgb(255, 28, 28);stop-opacity:0.4"
+       offset="100%" />
+  </linearGradient>
+  <linearGradient
+     y2="0%"
+     x2="100%"
+     y1="100%"
+     x1="0%"
+     id="red_grad">
+    <stop
+       id="stop89"
+       style="stop-color:rgb(255, 28, 28);stop-opacity:0.8"
+       offset="25%" />
+    <stop
+       id="stop91"
+       style="stop-color:rgb(255, 28, 28);stop-opacity:0.4"
+       offset="75%" />
+  </linearGradient>
+</defs>
+<path
+   id="path96"
+   fill="url(#red_bottom)"
+   d="M 420 90 h 40 v 20 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path98"
+   fill="url(#red_bottom)"
+   d="M 460 130 h 40 v 20 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path100"
+   fill="url(#red_bottom)"
+   d="M 500 170 l 30 10 l 10 10 h -20 q -20 0 -20 -20 z" />
+<path
+   id="path102"
+   fill="url(#red_grad)"
+   d="M 530 180 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path104"
+   fill="url(#red_right)"
+   d="M 550 180 v -30 l -10 -10 v 30 z" />
+<path
+   id="path106"
+   fill="url(#red_bottom)"
+   d="M 540 140 h 30 l 10 10 h -30 z" />
+<path
+   id="path108"
+   fill="url(#red_grad)"
+   d="M 570 140 l 10 -10 l 10 10 q 0 10 -10 10 z" />
+<path
+   id="path110"
+   fill="url(#red_right)"
+   d="M 590 60 v 80 l -10 -10 v -80 z" />
+<path
+   id="path112"
+   fill="url(#red_right)"
+   d="M 590 30 v 30 l -10 -10 l -10 -30 q 20 0 20 20 z" />
+ /&gt;
+   
+   <path
+   id="path114"
+   fill="url(#red_right)"
+   d="M 510 110 v 30 h -10 v-10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path116"
+   fill="url(#red_right)"
+   d="M 470 60 v 80 l -10 -10 v -80 z" />
+<path
+   id="path118"
+   fill="url(#red_right)"
+   d="M 470 30 v 30 l -10 -10 l -10 -30 q 20 0 20 20 z" />
+<path
+   id="path120"
+   fill="url(#red)"
+   d="M 420 30 q 0 -10 10 -10 h 20 q 10 0 10 10 v 70 h 30 q 10 0 10 10 v 30 h 40 v -110 q 0 -10 10 -10 h 20 q 10 0 10 10 v 100 q 0 10 -10 10 h -30 v 30 q 0 10 -10 10 h -20 q -10 0 -10 -10 v -30 h -30 q -10 0 -10 -10 v -30 h -30 q -10 0 -10 -10 z" />
+<!-- 5 -->
+<path
+   id="path122"
+   fill="rgb(255, 255, 0 )"
+   d="M 20 230 q 0 -10 5 -10 h 70 q 5 0 5 10 v 20 q 0 10 -5 10 h -15 v 110 q 0 10 -5 10 h -50 q -10 0 -10 -10 v -20 q 0 -10 10 -10 h 35 v -40 h -35 q -5 0 -5 -10 z" />
+<!-- s -->
+<path
+   id="path124"
+   fill="rgb(255, 255, 0)"
+   d="M 140 260 v -30 q 0 -10 5 -10 h 50 q 5 0 5 10 v 20 q 0 10 -5 10 h -55 v 30 q 0 10 -5 10 h -10 q -5 0 -5 -10 v -20 q 0 -10 5 -10 z M 180 340 v -30 q 0 -10 5 -10 h 10 q 5 0 5 10 v 20 q 0 10 -5 10 z v 30 q 0 10 -5 10 h -50 q -5 0 -5 -10 v -20 q 0 -10 5 -10 z" />
+</svg>
