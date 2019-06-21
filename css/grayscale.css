@@ -52,7 +52,7 @@ a:focus {
 
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
   font-family: 'Roboto', sans-serif;
   background-color: black;
 }
@@ -103,11 +103,8 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: #7d7e7d;
-    background: -moz-linear-gradient(-45deg, #7d7e7d 0%, #0e0e0e 20%, #0e0e0e 20%, #0e0e0e 25%, #0e0e0e 54%, #0e0e0e 64%);
-    background: -webkit-linear-gradient(-45deg, #7d7e7d 0%,#0e0e0e 20%,#0e0e0e 20%,#0e0e0e 25%,#0e0e0e 54%,#0e0e0e 64%);
-    background: linear-gradient(135deg, #7d7e7d 0%,#0e0e0e 20%,#0e0e0e 20%,#0e0e0e 25%,#0e0e0e 54%,#0e0e0e 64%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 );
+    background: black;
+    
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
