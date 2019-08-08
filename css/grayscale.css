@@ -116,7 +116,6 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
   text-align: left;
   color: white;
   background-color: rgb(0, 0, 0);
@@ -150,11 +149,10 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+
 }
 .education-section {
   width: 100%;
-  padding: 50px 0;
   color: white;
   background-color: rgb(37, 37, 37);
   -webkit-background-size: cover;
@@ -164,7 +162,6 @@ a:focus {
 }
 .programming-section {
   width: 100%;
-  padding: 50px 0;
   color: white;
   background-color: rgb(79, 79, 79);
   -webkit-background-size: cover;
@@ -174,7 +171,6 @@ a:focus {
 }
 .details-section {
   width: 100%;
-  padding: 50px 0;
   color: black;
   background-color: rgb(255, 255, 255);;
   -webkit-background-size: cover;
@@ -182,20 +178,7 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-@media (min-width: 767px) {
-  .content-section {
-    padding-top: 150px;
-  }
-  .education-section {
-    padding: 50px 0;
-  }
-  .programming-section {
-    padding: 50px 0;
-  }
-  .details-section {
-    padding: 50px 0;
-  }
-}
+
 .btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -219,9 +202,7 @@ a:focus {
 ul.banner-social-buttons {
   margin-top: 0;
 }
-footer {
-  padding: 50px 0;
-}
+
 footer p {
   margin: 0;
 }
