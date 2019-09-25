@@ -148,13 +148,20 @@ a:focus {
     font-size: 29px;
   }
 }
-.content-section {
-
+.content-section {}
+.details-section {
+  width: 100%;
+  color: black;
+  background-color: rgb(255, 255, 0);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .education-section {
   width: 100%;
-  color: white;
-  background-color: rgb(37, 37, 37);
+  color: black;
+  background-color: rgb(255, 255, 0);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -162,22 +169,14 @@ a:focus {
 }
 .programming-section {
   width: 100%;
-  color: white;
-  background-color: rgb(79, 79, 79);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.details-section {
-  width: 100%;
   color: black;
-  background-color: rgb(255, 255, 255);;
+  background-color: rgb(255, 255, 0);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 
 .btn {
   font-family: 'Roboto', sans-serif;
