@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: white;
 }
 @font-face {
     font-family: 'blocksblocks';
@@ -52,13 +52,13 @@ a:focus {
 
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0);*/
   font-family: 'Roboto', sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
-  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
@@ -72,7 +72,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -103,12 +103,12 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: black;
+    background: rgb(239, 239, 239);
     
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -117,8 +117,8 @@ a:focus {
   width: 100%;
   height: auto;
   text-align: left;
-  color: white;
-  background-color: rgb(0, 0, 0);
+  color: black;
+  background-color: rgb(255, 255, 255);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -130,11 +130,11 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 37px;
-  color: white;
+  color: black;
 }
 .intro .intro-body .intro-text {
   font-size: 29px;
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   .intro {
@@ -152,7 +152,7 @@ a:focus {
 .details-section {
   width: 100%;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(239, 239, 239);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -161,7 +161,7 @@ a:focus {
 .education-section {
   width: 100%;
   color: black;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(255, 255, 255);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -170,7 +170,7 @@ a:focus {
 .programming-section {
   width: 100%;
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(239, 239, 239);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -208,12 +208,12 @@ footer p {
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 1);
 }
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 1);
 }
 img::selection {
   background: transparent;
