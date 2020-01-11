@@ -80,7 +80,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgb(127, 127, 127);
+  color: rgb(64, 64, 64);
   outline: none;
   background-color: transparent;
 }
@@ -93,17 +93,17 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(127, 127, 127, 0.5);
+  background-color: rgba(64, 64, 64, 0.5);
 }
 .navbar-custom .nav li.active a:hover {
-  color: rgb(127, 127, 127);
+  color: rgb(64, 64, 64);
 }
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: rgb(239, 239, 239);
+    background: rgb(64, 64, 64);
     
   }
   .navbar-custom.top-nav-collapse {
