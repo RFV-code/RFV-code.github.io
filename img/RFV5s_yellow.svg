@@ -4,8 +4,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    version="1.1"
-   width="800"
-   height="200">
+   width="780"
+   height="170">
 <defs>
  <linearGradient
     y2="0%"
@@ -24,7 +24,7 @@
     x1="0%"
     id="white_bottom">
    <stop      
-      style="stop-color:rgb(255,255,0);stop-opacity:0.8"
+      style="stop-color:rgb(255,255,0);stop-opacity:0.7"
       offset="100%" />
  </linearGradient>
  <linearGradient
@@ -34,7 +34,7 @@
     x1="0%"
     id="white_right">
    <stop       
-      style="stop-color:rgb(255,255,0);stop-opacity:0.4"
+      style="stop-color:rgb(255,255,0);stop-opacity:0.3"
       offset="100%" />
  </linearGradient>
  <linearGradient
@@ -44,10 +44,10 @@
     x1="0%"
     id="white_grad">
    <stop       
-      style="stop-color:rgb(255,255,0);stop-opacity:0.8"
+      style="stop-color:rgb(255,255,0);stop-opacity:0.7"
       offset="25%" />
    <stop       
-      style="stop-color:rgb(255,255,0);stop-opacity:0.4"
+      style="stop-color:rgb(255,255,0);stop-opacity:0.3"
       offset="75%" />
  </linearGradient>
 </defs>

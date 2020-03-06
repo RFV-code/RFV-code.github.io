@@ -19,10 +19,14 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <script type="text/JavaScript">
+        var myVar = setInterval(starter, 10000);
+
         function starter()  {
-            var pic_number = Math.ceil(Math.random() * 27);
+            var pic_number = Math.ceil(Math.random() * 28);
             var pic_image = document.getElementById('RFV_img');
             pic_image.src = "img/" + pic_number + '.jpg';
+            var pic_image2 = document.getElementById('RFV_img2');
+            pic_image2.src = "img/" + pic_number + '.jpg';
         }
     </script>
 </head>
@@ -30,22 +34,20 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="starter();">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img id="RFV_logo" src="img/RFV5s_grey_5s.svg" height="48px">
+                    <img id="RFV_logo" src="img/RFV5s_yellow.svg" height="32px">
                 </a>
+                <img id="RFV_img2" src="" height="64px" style="border:2px solid white; border-radius: 4px;"/>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
+    <!-- Intro Header --> 
     <header class="intro">
         <div class="intro-body">
             <div class="container">
@@ -53,8 +55,8 @@
                     <div class="col-md-8 col-md-offset-2">
                         <p class="intro-text">
                            <b>Riaan Francois Venter</b><br><br>
-                           <b>FinTech</b> Developer, Investor and Advisor<br><br>
-                            <font style="font-size: 0.75em;">Over a decades experience in wealth management and software development</font>
+                           <b>FinTech</b> Developer, Investor and Advisor<br>
+                            <font style="font-size: 0.75em;">13 years+ of wealth management and software development</font>
                             <table style="width:100%; font-size: 1.5em;">
                                 <tr>
                                     <td><a href="mailto:email@RFV5s.com">email@RFV5s.com</a><br/><br/></td>
@@ -69,11 +71,6 @@
                                 </tr>
                                 <tr>
                                     <td><a href="https://keybase.io/rfv5s">Keybase</a></td>
-                                    <td><a href="https://coinpaprika.com/person/riaan-francois-venter/">Coin Paprika</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://angel.co/riaan-francois-venter-1">Angel List</a></td>
-                                    <td><a href="https://www.f6s.com/riaanfrancoisventer">F6S</a></td>
                                 </tr>
                             </table>
                         </p>
@@ -90,8 +87,8 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1>About</h1>
                     <p>
-                    <img id="RFV_img" src="" width="256" style="border:8px solid white "/><br><br>
-                    Standing at the bleeding edge of finance and computation, creating value, very well. These two fields are my passion, and in the past 13 years, I have written a number of software solutions for leading companies as well as managing substantially large portfolios for wealthy investors in the Middle East and London.</p>
+                    <img id="RFV_img" src="" width="256" style="border:8px solid white; border-radius: 25px;"/><br><br>
+                    I Stand at the bleeding edge of finance and computation. These two fields are my passion, and in the past 13 years, I have written a number of software solutions for leading companies as well as manage substantially large portfolios for wealthy investors in the Middle East and London.</p>
                     <p>
                     Software development focused on: numerical computation, data extraction, database implementation, data analysis. Python, Solidity, Clojure.</p>
                     <p>
@@ -108,14 +105,14 @@
                         </li>
                     </ul>
                     </p>
-                    <h3>Resume</h3>
+                    <!--h3>Resume</h3>
                     <p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a class="btn btn-default btn-lg" href="https://drive.google.com/open?id=0BzkLEtCwUeaASElXNE5fXzFUZDA">Resume</a>
                         </li>
                     </ul>
-                    </p>
+                    </p-->
                 </div>
             </div>
         </div>
@@ -169,7 +166,7 @@
                     <p>
                     	I have enough practical (technical) and theorical (insight) experience to do whatever is necessary for a project to succeed, and this is why clients love me. I have substantial knowledge of computation theory, computation complexity and the history and evolution of personal computers. This is my foundation in trying to predict where the technology industry is heading towards in the future.
                     </p>
-                    <h3>Technology Stack</h3><br>
+                    <h2>Technology Stack</h2><br>
                     <p>                    	
                     	Python, Numpy, Scipy, Pandas, Matplotlib, Sqlalchemy
                     </p>
