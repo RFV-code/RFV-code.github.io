@@ -121,13 +121,10 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: left;
   color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+
 }
 .intro .intro-body {
   display: table-cell;
@@ -138,7 +135,7 @@ a:focus {
   color: black;
 }
 .intro .intro-body .intro-text {
-  font-size: 1em;
+  font-size: 2em;
   color: black;
 }
 @media (min-width: 768px) {
@@ -147,7 +144,7 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 3em;
+    font-size: 4em;
   }
   .intro .intro-body .intro-text {
     font-size: 2em;
