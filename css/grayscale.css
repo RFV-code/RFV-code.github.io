@@ -138,6 +138,9 @@ a:focus {
   font-size: 2em;
   color: black;
 }
+.intro .intro-body .intro-links {
+  font-size: 1.5em;
+}
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -148,6 +151,9 @@ a:focus {
   }
   .intro .intro-body .intro-text {
     font-size: 2em;
+  }
+  .intro .intro-body .intro-links {
+    font-size: 1.5em;
   }
 }
 .content-section {}
